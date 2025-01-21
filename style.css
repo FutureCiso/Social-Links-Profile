@@ -1,0 +1,78 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", serif;
+    background-color: var(--Grey900);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 380px;
+    height: 600px;
+    background-color:var(--Grey800);
+    border-radius: 15px;
+    padding: 2.5rem 2.5rem;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 5rem;
+    margin-bottom: 1.5em;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--White);
+    margin-bottom: 0.5rem;
+}
+
+#location{
+    margin-bottom: 1.2rem;
+    color: var(--Green);
+    font-size: 0.85rem;
+}
+
+#role{
+    color: var(--White);
+    font-size: 0.955rem;
+    margin-bottom: 1.8rem;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.95rem;
+    width: 22em;
+    height: 3.5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    color: var(--White);
+    font-weight: 600;
+    background-color: var(--Grey700);
+}
+
+button:hover{
+    background-color: var(--Green);
+    color: var(--Grey800);
+}
