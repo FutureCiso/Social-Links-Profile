@@ -14,7 +14,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 This is the Solution to frontend mentor challenege to refresh my HTML and CSS
 
 ### Screenshot
-![](assets/images/mobile%20screenshot.JPG)
+![](assets/images/desktop%20screenshot.JPG)
 
 ![](assets/images/mobile%20screenshot.JPG)
 
